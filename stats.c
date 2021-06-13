@@ -9,13 +9,13 @@
  *
  *****************************************************************************/
 /**
- * @file <Add File Name> 
- * @brief <Add Brief Description Here >
+ * @file stats.c 
+ * @brief Function implementations for c1m1 assignment
  *
- * <Add Extended Description Here>
  *
- * @author <Add FirsName LastName>
- * @date <Add date >
+ *
+ * @author Yuchen Ding
+ * @date 06/13/2021
  *
  */
 
@@ -36,8 +36,38 @@ void main() {
                                 7,  87, 250, 230,  99,   3, 100,  90};
 
   /* Other Variable Declarations Go Here */
+
   /* Statistics and Printing Functions Go Here */
+
 
 }
 
 /* Add other Implementation File Code Here */
+
+void print_statistics(unsigned char min, unsigned char max, unsigned char mean, unsigned char median) {
+
+}
+
+void print_array(unsigned char* arr, unsigned int len) {
+
+}
+
+unsigned char find_median(unsigned char* arr, unsigned int len) {
+
+}
+
+unsigned char find_mean(unsigned char* arr, unsigned int len) {
+
+}
+
+unsigned char find_maximum(unsigned char* arr, unsigned int len) {
+
+}
+
+unsigned char find_minimum(unsigned char* arr, unsigned int len) {
+
+}
+
+void sort_array(unsigned char* arr, unsigned int len) {
+
+}
